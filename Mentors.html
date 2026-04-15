@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechArts - Mentors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="Homepage.html">TechArts</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Mentors.html">Mentors</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="Catalog.html">Catalog</a>
+        </li>
+  
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+    <main class="container py-4">
+        
+        <div class="card p-4 mb-4" style="background-color: #1a1b26; border: none;">
+            <div class="row align-items-center mb-4">
+                <div class="col-md-6">
+                    <h3 class="fw-bold mb-0">Find Your Perfect Mentor</h3>
+                </div>
+                <div class="col-md-6">
+                    <div class="input-group">
+                        <span class="input-group-text bg-dark border-secondary text-muted-custom"><i class="bi bi-search"></i></span>
+                        <input type="text" class="form-control bg-dark border-secondary text-light" placeholder="Search by name, company, or role...">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex gap-2">
+                    <button class="btn btn-outline-secondary btn-sm text-light border-secondary dropdown-toggle">Category</button>
+                    <button class="btn btn-outline-secondary btn-sm text-light border-secondary dropdown-toggle">Price Range</button>
+                    <button class="btn btn-outline-secondary btn-sm text-light border-secondary dropdown-toggle">Rating: 4.0+</button>
+                </div>
+                <div class="text-muted-custom fs-7 d-flex align-items-center gap-2">
+                    Sort by: <span class="text-light fw-bold dropdown-toggle" style="cursor: pointer;">Recommended</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-lg-3">
+                <div class="card p-3 mb-3">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h6 class="fw-bold mb-0">Skills</h6>
+                        <a href="#" class="text-blue text-decoration-none" style="font-size: 12px;">Reset</a>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="checkbox" id="skill1">
+                        <label class="form-check-label text-muted-custom fs-7" for="skill1">JavaScript / React</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-primary border-primary" type="checkbox" id="skill2" checked>
+                        <label class="form-check-label text-light fs-7" for="skill2">Web Design (UI/UX)</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="checkbox" id="skill3">
+                        <label class="form-check-label text-muted-custom fs-7" for="skill3">Python & AI</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="checkbox" id="skill4">
+                        <label class="form-check-label text-muted-custom fs-7" for="skill4">Business Strategy</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="checkbox" id="skill5">
+                        <label class="form-check-label text-muted-custom fs-7" for="skill5">Digital Marketing</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input bg-dark border-secondary" type="checkbox" id="skill6">
+                        <label class="form-check-label text-muted-custom fs-7" for="skill6">Economy & Finance</label>
+                    </div>
+                </div>
+
+                <div class="card p-3">
+                    <h6 class="fw-bold mb-3">Availability</h6>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="radio" name="avail" id="avail1">
+                        <label class="form-check-label text-muted-custom fs-7" for="avail1">Anytime</label>
+                    </div>
+                    <div class="form-check mb-2">
+                        <input class="form-check-input bg-dark border-secondary" type="radio" name="avail" id="avail2">
+                        <label class="form-check-label text-muted-custom fs-7" for="avail2">Weekdays</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input bg-dark border-secondary" type="radio" name="avail" id="avail3">
+                        <label class="form-check-label text-muted-custom fs-7" for="avail3">Weekends</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9">
+                <div class="row g-4 mb-4">
+                    
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder"></div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.9</div>
+                                    <h4 class="mb-0 fw-bold">$50 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">Sarah Jenkins</h6>
+                            <div class="fs-7 text-blue mb-3">Senior Frontend Architect</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Helping developers master React, TypeScript, and modern UI/UX...</p>
+                            <div class="d-flex gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">React</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">UI/UX</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder"></div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 5.0</div>
+                                    <h4 class="mb-0 fw-bold">$85 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">David Chen</h6>
+                            <div class="fs-7 text-green mb-3">Fullstack Lead @TechCorp</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Specializing in scalable backend systems, Node.js, and cloud...</p>
+                            <div class="d-flex flex-wrap gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Node.js</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">AWS</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge" style="font-size: 9px;">System Design</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder"></div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.8</div>
+                                    <h4 class="mb-0 fw-bold">$60 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">Elena Rodriguez</h6>
+                            <div class="fs-7 text-purple mb-3">Product Designer</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">I help designers build better portfolios and master Figma for...</p>
+                            <div class="d-flex gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Figma</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Product Design</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">MJ</div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.7</div>
+                                    <h4 class="mb-0 fw-bold">$120 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">Marcus Jones</h6>
+                            <div class="fs-7 mb-3" style="color: #f97316;">Startup Founder & CEO</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Strategic advice for early-stage founders on fundraising, product-...</p>
+                            <div class="d-flex gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Business</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Startup</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">AL</div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.9</div>
+                                    <h4 class="mb-0 fw-bold">$45 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">Aisha Lee</h6>
+                            <div class="fs-7 text-blue mb-3">Data Scientist</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Expert in Python, Machine Learning, and turning complex data into...</p>
+                            <div class="d-flex gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Python</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">AI/ML</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card p-3 h-100 d-flex flex-column mentor-card">
+                            <div class="d-flex justify-content-between align-items-start mb-3">
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">JS</div>
+                                <div class="text-end">
+                                    <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.6</div>
+                                    <h4 class="mb-0 fw-bold">$75 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                </div>
+                            </div>
+                            <h6 class="fw-bold mb-1">James Smith</h6>
+                            <div class="fs-7 mb-3" style="color: #ef4444;">Marketing Director</div>
+                            <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Driving growth through digital marketing strategies, SEO, and...</p>
+                            <div class="d-flex gap-2 mb-4 mt-auto">
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">Marketing</span>
+                                <span class="badge border border-secondary text-muted-custom fw-normal tag-badge">SEO</span>
+                            </div>
+                            <button class="btn btn-primary w-100"><i class="bi bi-lightning-fill"></i> Hire by the Hour</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="text-center">
+                    <button class="btn btn-outline-secondary text-light border-secondary px-4 py-2" style="background-color: #1a1b26;">Show More Mentors <i class="bi bi-chevron-down ms-2"></i></button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

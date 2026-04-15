@@ -1,0 +1,112 @@
+/* style.css - Kombinasi Dashboard & Catalog */
+
+body {
+    background-color: #0f1016;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    background-color: #0f1016;
+    border-bottom: 1px solid #262736;
+}
+
+.nav-link { 
+    color: #8b8d9f; 
+    font-size: 14px; 
+}
+
+.nav-link.active { 
+    color: #3b82f6; 
+}
+
+.card {
+    background-color: #161722;
+    border: 1px solid #262736;
+    border-radius: 12px;
+}
+
+.text-muted-custom { color: #8b8d9f; }
+.text-green { color: #10b981; }
+.text-blue { color: #3b82f6; }
+.text-purple { color: #8b5cf6; }
+.fs-7 { font-size: 14px; }
+
+.progress { 
+    background-color: #2d2e40; 
+    height: 6px; 
+}
+
+.progress-bar.bg-blue { background-color: #3b82f6; }
+
+/* Dashboard Specific Styles */
+.quest-item {
+    border-bottom: 1px solid #262736;
+    padding: 15px 0;
+}
+
+.quest-icon {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #262736;
+    text-align: center;
+    line-height: 40px;
+}
+
+.quest-icon.completed { border-color: #10b981; color: #10b981; }
+.quest-icon.pending { border-color: #8b5cf6; color: #8b5cf6; }
+
+.radial-progress {
+    width: 150px; height: 150px;
+    border-radius: 50%;
+    border: 5px solid #8b5cf6;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.reward-icon {
+    width: 40px; height: 40px;
+    background-color: #2d2e40;
+    border-radius: 8px;
+}
+
+/* Catalog Specific Styles */
+.text-gradient {
+    background: linear-gradient(to right, #8b5cf6, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.path-card {
+    transition: transform 0.2s;
+}
+
+.path-card:hover {
+    transform: translateY(-5px);
+    border-color: #3b82f6;
+}
+
+.path-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(59, 130, 246, 0.1); /* Fallback */
+}
+
+.path-icon.bg-blue { background-color: rgba(59, 130, 246, 0.15); }
+.path-icon.bg-purple { background-color: rgba(139, 92, 246, 0.15); }
+.path-icon.bg-green { background-color: rgba(16, 185, 129, 0.15); }
+
+.course-header {
+    height: 120px;
+    padding: 15px;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #2d2e40;
+}
