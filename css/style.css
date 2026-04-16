@@ -1,14 +1,14 @@
 /* style.css - Kombinasi Dashboard & Catalog */
 
 body {
-    background-color: #0f1016;
+    background-color: #1E293B;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
 
-.navbar {
+.my-nav {
     background-color: #0f1016;
-    border-bottom: 1px solid #262736;
+    border-bottom: 2.3px solid #FFFFFF;
 }
 
 .nav-link { 
@@ -39,7 +39,6 @@ body {
 
 .progress-bar.bg-blue { background-color: #3b82f6; }
 
-/* Dashboard Specific Styles */
 .quest-item {
     border-bottom: 1px solid #262736;
     padding: 15px 0;
@@ -72,7 +71,6 @@ body {
     border-radius: 8px;
 }
 
-/* Catalog Specific Styles */
 .text-gradient {
     background: linear-gradient(to right, #8b5cf6, #3b82f6);
     -webkit-background-clip: text;
@@ -95,7 +93,7 @@ body {
     border-radius: 8px;
     text-align: center;
     line-height: 40px;
-    background-color: rgba(59, 130, 246, 0.1); /* Fallback */
+    background-color: rgba(59, 130, 246, 0.1);
 }
 
 .path-icon.bg-blue { background-color: rgba(59, 130, 246, 0.15); }
@@ -109,4 +107,9 @@ body {
 
 .btn-outline-secondary:hover {
     background-color: #2d2e40;
+}
+
+.fire{
+  color: #C3753D;
+  font-weight: 50;
 }
