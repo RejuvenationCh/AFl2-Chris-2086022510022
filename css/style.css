@@ -1,7 +1,7 @@
-/* style.css - Kombinasi Dashboard & Catalog */
+/* style.css */
 
 body {
-    background-color: #1E293B;
+    background-color: #0F172A;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
 }
@@ -9,6 +9,11 @@ body {
 .my-nav {
     background-color: #0f1016;
     border-bottom: 2.3px solid #FFFFFF;
+}
+
+.white-text {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .nav-link { 
@@ -21,7 +26,7 @@ body {
 }
 
 .card {
-    background-color: #161722;
+    background-color: #141C2F;
     border: 1px solid #262736;
     border-radius: 12px;
 }
@@ -111,5 +116,6 @@ body {
 
 .fire{
   color: #C3753D;
-  font-weight: 50;
+  font-weight: bold;
+  text-decoration: none;
 }
