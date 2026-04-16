@@ -13,28 +13,18 @@
 </head>
 <body>
 
-     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg navbar-dark my-nav">
   <div class="container-fluid">
     <a class="navbar-brand" href="Homepage.html">TechArts</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
-        </li>
-          <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Mentors.html">Mentors</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="Catalog.html">Catalog</a>
-        </li>
-  
-        </li>
-
+        <li class="nav-item"><a class="nav-link" href="Homepage.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="Mentors.html">Mentors</a></li>
+        <li class="nav-item"><a class="nav-link" href="Catalog.html">Catalog</a></li>
       </ul>
-
     </div>
   </div>
 </nav>
@@ -69,7 +59,7 @@
             <div class="col-lg-3">
                 <div class="card p-3 mb-3">
                     <div class="d-flex justify-content-between align-items-center mb-3">
-                        <h6 class="fw-bold mb-0">Skills</h6>
+                        <h6 class="fw-bold mb-0"><a class="white-text">Skills</a></h6>
                         <a href="#" class="text-blue text-decoration-none" style="font-size: 12px;">Reset</a>
                     </div>
                     <div class="form-check mb-2">
@@ -99,7 +89,7 @@
                 </div>
 
                 <div class="card p-3">
-                    <h6 class="fw-bold mb-3">Availability</h6>
+                    <h6 class="fw-bold mb-3"><a class="white-text">Availibility</a></h6>
                     <div class="form-check mb-2">
                         <input class="form-check-input bg-dark border-secondary" type="radio" name="avail" id="avail1">
                         <label class="form-check-label text-muted-custom fs-7" for="avail1">Anytime</label>
@@ -124,10 +114,10 @@
                                 <div class="profile-placeholder"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.9</div>
-                                    <h4 class="mb-0 fw-bold">$50 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$50</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">Sarah Jenkins</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">Sarah Jerkins</a></h6> </h6>
                             <div class="fs-7 text-blue mb-3">Senior Frontend Architect</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Helping developers master React, TypeScript, and modern UI/UX...</p>
                             <div class="d-flex gap-2 mb-4 mt-auto">
@@ -144,10 +134,10 @@
                                 <div class="profile-placeholder"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 5.0</div>
-                                    <h4 class="mb-0 fw-bold">$85 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$85</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">David Chen</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">David Chen</a></h6>
                             <div class="fs-7 text-green mb-3">Fullstack Lead @TechCorp</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Specializing in scalable backend systems, Node.js, and cloud...</p>
                             <div class="d-flex flex-wrap gap-2 mb-4 mt-auto">
@@ -165,10 +155,10 @@
                                 <div class="profile-placeholder"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.8</div>
-                                    <h4 class="mb-0 fw-bold">$60 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$60</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">Elena Rodriguez</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">Elena Rodriguez</a></h6>
                             <div class="fs-7 text-purple mb-3">Product Designer</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">I help designers build better portfolios and master Figma for...</p>
                             <div class="d-flex gap-2 mb-4 mt-auto">
@@ -182,13 +172,13 @@
                     <div class="col-md-4">
                         <div class="card p-3 h-100 d-flex flex-column mentor-card">
                             <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">MJ</div>
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.7</div>
-                                    <h4 class="mb-0 fw-bold">$120 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$120</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">Marcus Jones</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">Marcus Jones</a></h6>
                             <div class="fs-7 mb-3" style="color: #f97316;">Startup Founder & CEO</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Strategic advice for early-stage founders on fundraising, product-...</p>
                             <div class="d-flex gap-2 mb-4 mt-auto">
@@ -202,13 +192,13 @@
                     <div class="col-md-4">
                         <div class="card p-3 h-100 d-flex flex-column mentor-card">
                             <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">AL</div>
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.9</div>
-                                    <h4 class="mb-0 fw-bold">$45 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$45</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">Aisha Lee</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">Aisha Lee</a></h6>
                             <div class="fs-7 text-blue mb-3">Data Scientist</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Expert in Python, Machine Learning, and turning complex data into...</p>
                             <div class="d-flex gap-2 mb-4 mt-auto">
@@ -222,13 +212,13 @@
                     <div class="col-md-4">
                         <div class="card p-3 h-100 d-flex flex-column mentor-card">
                             <div class="d-flex justify-content-between align-items-start mb-3">
-                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5">JS</div>
+                                <div class="profile-placeholder d-flex align-items-center justify-content-center text-muted-custom fs-5"></div>
                                 <div class="text-end">
                                     <div class="badge bg-warning text-dark mb-2"><i class="bi bi-star-fill"></i> 4.6</div>
-                                    <h4 class="mb-0 fw-bold">$75 <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
+                                    <h4 class="mb-0 fw-bold"><a class="white-text">$75</a> <span class="fs-7 text-muted-custom fw-normal">/hr</span></h4>
                                 </div>
                             </div>
-                            <h6 class="fw-bold mb-1">James Smith</h6>
+                            <h6 class="fw-bold mb-1"><a class="white-text">James Smith</a></h6>
                             <div class="fs-7 mb-3" style="color: #ef4444;">Marketing Director</div>
                             <p class="text-muted-custom mb-3 line-clamp-3" style="font-size: 12px;">Driving growth through digital marketing strategies, SEO, and...</p>
                             <div class="d-flex gap-2 mb-4 mt-auto">
